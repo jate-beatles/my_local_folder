@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 ctx = ssl.create_default_context
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
-
+###Input the url to parse
 url = input('Enter- URL')
 c = int(input('Enter count'))
 po =int( input('Enter position'))
@@ -25,3 +25,5 @@ for i in range(c):
 
 print(url)
 
+
+g

@@ -36,6 +36,7 @@ plt.title('Relationship between ball kicking and grades')
 plt.legend()
 plt.legend(loc = 4, frameon = False, title = "Legend")
 
+
 # %%
 import numpy as np 
 linear_data = np.array([1,2,3,4,5,6,7,8])
@@ -63,3 +64,7 @@ ax = plt.gca()
 ax.set_title("Quadratic ($x^2$) vs. Linear ")
 
 # %%
+plt. figure() 
+xvals = range(len(linear_data))
+plt.bar(xvals, linear_data, width = 0.3)
+
